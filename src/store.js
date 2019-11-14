@@ -24,8 +24,8 @@ const types = {
 const state = {
   isAutnenticated: false,  // 是否认证
   user: {},                 // 存储用户信息
-  ORIGIN_API: "",
-  // ORIGIN_API: "//secret-retreat-85461.herokuapp.com"
+  // ORIGIN_API: "",
+  ORIGIN_API: "//secret-retreat-85461.herokuapp.com"
 }
 
 const getters = {
