@@ -9,8 +9,15 @@
 </template>
 
 <script>
-  import HeadNav from '../components/HeadNav'
-  import LeftMenu from '../components/LeftMenu'
+  // import HeadNav from '../components/HeadNav'
+  // import LeftMenu from '../components/LeftMenu'
+
+
+
+const HeadNav = () => import('@/components/HeadNav.vue')
+const LeftMenu = () => import('@/components/LeftMenu.vue')
+
+
 
   export default {
     name: 'index',

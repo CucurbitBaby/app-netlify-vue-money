@@ -141,7 +141,9 @@
 </template>
 
 <script>
-import DialogFound from "../components/DialogFound";
+// import DialogFound from "../components/DialogFound";
+
+const DialogFound = () => import('@/components/DialogFound.vue')
 
 export default {
   name: "fundlist",

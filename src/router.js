@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 
-const HelloWorld = () => import('@/components/HelloWorld.vue')
 
 // import Index from './views/Index'
 const Index = () => import('@/views/Index.vue')
@@ -27,7 +26,7 @@ const FoundList = () => import('@/views/FoundList.vue')
 
 
 // import NotFound from './views/404'
-const NotFound = () => import('@/views/NotFound.vue')
+const NotFound = () => import('@/views/404.vue')
 
 
 
