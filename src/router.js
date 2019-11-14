@@ -1,14 +1,34 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from './views/Index'
-import Register from './views/Register'
-import Login from './views/Login'
-import Home from './views/Home'
-import InfoShow from './views/InfoShow'
-import FoundList from './views/FoundList'
 
 
-import NotFound from './views/404'
+const HelloWorld = () => import('@/components/HelloWorld.vue')
+
+// import Index from './views/Index'
+const Index = () => import('@/views/Index.vue')
+
+// import Register from './views/Register'
+const Register = () => import('@/views/Register.vue')
+
+// import Login from './views/Login'
+const Login = () => import('@/views/Login.vue')
+
+// import Home from './views/Home'
+const Home = () => import('@/views/Home.vue')
+
+
+// import InfoShow from './views/InfoShow'
+const InfoShow = () => import('@/views/InfoShow.vue')
+
+
+// import FoundList from './views/FoundList'
+const FoundList = () => import('@/views/FoundList.vue')
+
+
+
+// import NotFound from './views/404'
+const NotFound = () => import('@/views/NotFound.vue')
+
 
 
 Vue.use(Router)
